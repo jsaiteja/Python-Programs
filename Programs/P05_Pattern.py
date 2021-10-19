@@ -42,6 +42,13 @@ def pattern3(level):
     for i in range(level + 1):
         print(' ' * counter + '*' * i)
         counter -= 1
+        
+# Alternate way 
+# def pattern3(level):
+#     for i in range(1, level+1):
+#         print()
+#         # for j in range(i):
+#         print((level-i) * ' ' + i * '*')
 
 def pattern4(level):
     '''This function prints the following pattern:
