@@ -47,7 +47,6 @@ def pattern3(level):
 # def pattern3(level):
 #     for i in range(1, level+1):
 #         print()
-#         # for j in range(i):
 #         print((level-i) * ' ' + i * '*')
 
 def pattern4(level):
