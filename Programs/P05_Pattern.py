@@ -44,9 +44,9 @@ def pattern3(level):
         counter -= 1
         
 # Alternate way to print pattern3
-# def pattern3(level):
-#     for i in range(1, level+1):
-#         print((level-i) * ' ' + i * '*')
+def alt_pattern3(level):
+    for i in range(1, level+1):
+        print((level-i) * ' ' + i * '*')
 
 def pattern4(level):
     '''This function prints the following pattern:
@@ -79,6 +79,11 @@ def pattern5(level):
         for k in range(2 * i - 1):
             print("*", end='')
         print()
+        
+# Alternate way to print pattern5
+def alt_pattern5(level):
+    for i in range(1, level+1):
+        print((level-i) * ' ' + (2*i-1) * '*' + (level-i) * ' ')
 
 
 if __name__ == '__main__':
